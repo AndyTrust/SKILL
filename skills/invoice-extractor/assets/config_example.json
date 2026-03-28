@@ -1,0 +1,12 @@
+{
+  "supplier_patterns": [
+    "(?:company|supplier|vendor|name)\\s*[:\\-]?\\s*([A-Z][^\\n]{3,80}?)(?:\\n|$)"
+  ],
+  "date_patterns": [
+    "(?:date|issued|documento)\\s*[:\\-]?\\s*(\\d{4}[/\\-]\\d{1,2}[/\\-]\\d{1,2})",
+    "(\\d{1,2}[/\\.\\-]\\d{1,2}[/\\.\\-]\\d{4})"
+  ],
+  "doc_number_patterns": [
+    "(?:number|invoice|reference|numero)\\s*[:\\-]?\\s*([A-Z0-9/\\-\\.]+?)(?:\\n|$)"
+  ]
+}
